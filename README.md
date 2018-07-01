@@ -12,8 +12,8 @@ Constituée de routes pour :
 Exemple de route :
 
   <p align="left">
-  <img src="https://imageshack.com/a/img922/7092/UFycdd.png" width="300" alt="clone repository">
-  </p>" width="300" alt="clone repository">
+  <img src="https://imageshack.com/a/img922/7092/UFycdd.png" width="500" alt="exemple route">
+  </p>
 
 
 ## Guide de démarrage rapide
