@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// To do : Importer le fichier contenant nos requêtes mongoose
 // Display All members ( Use: user, administrator)
 exports.allMembers = (req, res) => {
     res.send('Not implemented : all members ');
@@ -12,7 +11,7 @@ exports.oneMember = (req, res) => {
 };
 // Update member ( Use: administrator)
 exports.updateMember = (req, res) => {
-    let id = req.params.id;
+    const id = req.params.id;
     console.log(id);
     // get data from req.body
     res.json({ resultData: "new data" + id });
@@ -20,7 +19,13 @@ exports.updateMember = (req, res) => {
 // Create member (Use: user, administrator)
 exports.createMember = (req, res) => {
     console.log(req.body);
-    // get data from req.body
-    res.json('received');
+    //     const getJob = ( str: any ): string => { 
+    //         assert(str.test(/A-Z/i));
+    //         return str;
+    //    }
+    //    const myjob = getJob(req.body.job)
+    //     console.log(myjob) 
+    //     // get data from req.body
+    //     myjob ? res.json('received') : res.status(400).json('requete incorrecte')
 };
 //# sourceMappingURL=membersController.js.map
